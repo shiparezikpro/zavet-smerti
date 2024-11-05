@@ -1,0 +1,71 @@
+body {
+    font-family: 'Georgia', serif; /* Изменён шрифт на более стильный */
+    background-color: #121212; /* Темный фон для создания атмосферы */
+    color: #f2f2f2; /* Цвет текста */
+    line-height: 1.8; /* Увеличенный межстрочный интервал для лучшей читаемости */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1c1c1c; /* Темный фон для заголовка */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #f00; /* Красная линия для эффекта ужаса */
+}
+
+h1 {
+    font-size: 3em; /* Увеличенный размер заголовка */
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Тень для текста */
+}
+
+h2 {
+    font-size: 1.8em; /* Размер подзаголовка */
+    margin: 0;
+    font-weight: normal;
+}
+
+main {
+    padding: 20px;
+}
+
+.chapter {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 2.5em; /* Размер заголовка главы */
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+h4 {
+    font-size: 1.6em; /* Размер подзаголовка главы */
+    margin-top: 10px;
+    color: #ccc;
+}
+
+p {
+    font-size: 1.3em; /* Увеличенный размер текста */
+    margin: 10px 0;
+    transition: color 0.3s; /* Плавный переход цвета */
+}
+
+p:hover {
+    color: #ff0000; /* Цвет текста при наведении */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1c1c1c; /* Темный фон для подвала */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #f00; /* Красная линия для эффекта ужаса */
+}
+
+footer p {
+    margin: 0;
+}
