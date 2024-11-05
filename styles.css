@@ -1,29 +1,30 @@
 body {
-    font-family: 'Georgia', serif; /* Изменён шрифт на более стильный */
-    background-color: #121212; /* Темный фон для создания атмосферы */
-    color: #f2f2f2; /* Цвет текста */
-    line-height: 1.8; /* Увеличенный межстрочный интервал для лучшей читаемости */
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #f2f2f2;
+    line-height: 1.8;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #1c1c1c; /* Темный фон для заголовка */
+    background-color: #1c1c1c;
     padding: 20px;
     text-align: center;
-    border-bottom: 2px solid #f00; /* Красная линия для эффекта ужаса */
+    border-bottom: 2px solid #f00;
 }
 
 h1 {
-    font-size: 3em; /* Увеличенный размер заголовка */
+    font-size: 3em;
     margin: 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Тень для текста */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 h2 {
-    font-size: 1.8em; /* Размер подзаголовка */
+    font-size: 1.8em;
     margin: 0;
     font-weight: normal;
+    color: #ff6666;
 }
 
 main {
@@ -35,35 +36,31 @@ main {
 }
 
 h3 {
-    font-size: 2.5em; /* Размер заголовка главы */
+    font-size: 2.5em;
     margin-top: 20px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
 h4 {
-    font-size: 1.6em; /* Размер подзаголовка главы */
+    font-size: 1.6em;
     margin-top: 10px;
     color: #ccc;
 }
 
 p {
-    font-size: 1.3em; /* Увеличенный размер текста */
+    font-size: 1.5em;
     margin: 10px 0;
-    transition: color 0.3s; /* Плавный переход цвета */
-}
-
-p:hover {
-    color: #ff0000; /* Цвет текста при наведении */
+    color: #d1d1d1; 
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #1c1c1c; /* Темный фон для подвала */
+    background-color: #1c1c1c;
     position: relative;
     bottom: 0;
     width: 100%;
-    border-top: 2px solid #f00; /* Красная линия для эффекта ужаса */
+    border-top: 2px solid #f00;
 }
 
 footer p {
